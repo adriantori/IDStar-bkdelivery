@@ -1,0 +1,74 @@
+/* Desktop display */
+.desktop{
+    background: #2D2D2D;
+    display: flex;
+    height: 84px;
+    font-family: "flameRegular"
+}
+
+.bkLogo{
+    width:auto;
+    height:150%;
+    position:relative;
+    margin-left: 32px;
+    overflow: hidden;
+    top:10px;
+}
+
+.navbarGroupMenu{
+    margin:0px 24px;
+    padding-top: 16px;
+}
+
+.navbarGroupMenu a{
+    text-decoration: none;
+}
+
+.navbarGroupMenu a span{
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitle{
+    color: #FAAF18;
+    font-size:12px;
+}
+
+.title{
+    color: #FFFFFF;
+    font-size:24px;
+    font-family: "flameBold"
+}
+
+.navbarRight{
+    margin-left: auto;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbarLogin{
+    font-size: 26px;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 54px;
+}
+
+.navbarCart{
+    background-color: #ED7801;
+    height:100%;
+    width:64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarCartIcon{
+    height:50%;
+}
+
+/* Mobile display */
+.mobile{
+    display:none;
+}

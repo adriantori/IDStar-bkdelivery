@@ -1,0 +1,33 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("/assets/images/BK_bg.jpg");
+    background-color:#FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: "flameBold";
+    src: url("/assets/fonts/FlameBold.otf")
+}
+
+@font-face {
+    font-family: "flameCondensed";
+    src: url("/assets/fonts/FlameCondensed.otf");
+}
+
+@font-face {
+    font-family: "flameRegular";
+    src: url("/assets/fonts/FlameRegular.otf");
+}
+
+@font-face {
+    font-family: "flameSans";
+    src: url("/assets/fonts/FlameSans.otf");
+}
