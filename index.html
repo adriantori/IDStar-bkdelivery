@@ -18,29 +18,40 @@
 <body>
     <nav class="navbar">
         <div class="desktop">
-            <img src="/assets/images/navbar/bk_icon.png" alt="bk logo" class="bkLogo">
+            <a href="https://bkdelivery.co.id">
+                <img src="/assets/images/navbar/bk_icon.png" alt="bk logo" class="bkLogo">
+            </a>
             <div class="navbarGroupMenu">
-                <a href="#">
+                <a href="https://bkdelivery.co.id/menus/">
                     <span class="subtitle">Delivery</span>
                     <span class="title">Order</span>
                 </a>
             </div>
             <div class="navbarGroupMenu">
-                <a href="#">
+                <a href="https://bkdelivery.co.id/news-v1/">
                     <span class="subtitle">Get Fresh</span>
                     <span class="title">Promotions</span>
                 </a>
             </div>
             <div class="navbarGroupMenu">
-                <a href="#">
+                <a href="https://bkdelivery.co.id/large-orders/create">
                     <span class="subtitle">Exclusive</span>
                     <span class="title">Large Order</span>
                 </a>
             </div>
             <div class="navbarRight">
-                <a href="#" class="navbarLogin">LOGIN</a>
-                <div class="navbarCart">
-                    <img src="/assets/images/navbar/shopping_cart.png" alt="shopping cart" class="navbarCartIcon">
+                <a href="https://bkdelivery.co.id/accounts/login" class="navbarLogin">LOGIN</a>
+                <div class="navbarCart" id="displayCartData">
+                    <a href="#" class="navbarCartLink">
+                        <img src="/assets/images/navbar/shopping_cart.png" alt="shopping cart" class="navbarCartIcon">
+                        <span class="badge">0</span>
+                    </a>
+                </div>
+                <div id="cartData" class="navbarCartData top">
+                    <p>Your cart is empty.</p>
+                    <a href="#">
+                        <button>Order Now</button>
+                    </a>
                 </div>
     
             </div>
