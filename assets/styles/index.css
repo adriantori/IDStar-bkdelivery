@@ -10,6 +10,19 @@ body {
     background-attachment: fixed;
     margin: 0;
     padding: 0;
+    overflow-y:scroll;
+}
+
+body::-webkit-scrollbar{
+    background-color: rgba(134, 134, 134, 0);
+}
+
+body::-webkit-scrollbar-track{
+    background-color: rgba(134, 134, 134, 0);
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: rgba(59, 59, 59, 0.1) !important;
 }
 
 h2{
@@ -34,14 +47,20 @@ h2{
     text-decoration: none;
 }
 
-@font-face {
-    font-family: "flameBold";
-    src: url("/assets/fonts/FlameBold.otf")
+.inline{
+    display: inline-block;
+}
+
+.vr{
+    width:1px;
+    height:20px;
+    display:inline;
+    margin: 0 24px;
 }
 
 @font-face {
-    font-family: "flameCondensed";
-    src: url("/assets/fonts/FlameCondensed.otf");
+    font-family: "flameBold";
+    src: url("/assets/fonts/FlameBold.otf")
 }
 
 @font-face {
