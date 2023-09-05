@@ -69,6 +69,10 @@
         margin-top:24px;
     }
 
+    .footerEmailTxt{
+        font-size:1.2rem;
+    }
+
     .footerIcon {
         width: 32px;
         height: 32px;
@@ -100,8 +104,21 @@
         color: #919191
     }
 }
+
+@media screen and (max-width: 768px){
+    /* footer */
+    .footerContact{
+        width:100%;
+        justify-content: right;
+    }
+
+    .footerText{
+        font-size: 1rem;
+    }
+}
+
 @media screen and (max-width: 425px){
-    /* Menu */
+    /* menu */
     .textWrapperTxt{
         font-size:1rem;
         font-family:"flameBold";
