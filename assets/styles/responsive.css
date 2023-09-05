@@ -13,6 +13,10 @@
         display:flex;
     }
 
+    .crownContainer{
+        display:block;
+    }
+
     /* menus */
     .menusWrapper{
         width:100%;
