@@ -109,7 +109,6 @@
     /* footer */
     .footerContact{
         width:100%;
-        justify-content: right;
     }
 
     .footerText{
@@ -118,6 +117,9 @@
 }
 
 @media screen and (max-width: 425px){
+    .defaultFontBold{
+        font-size:1.5rem;
+    }
     /* menu */
     .textWrapperTxt{
         font-size:1rem;
@@ -156,5 +158,29 @@
 
     .footerTosTm{
         text-align:center;
+    }
+}
+
+@media screen and (max-width: 375px){
+    /* menu */
+    .textWrapperTxt{
+        font-size:0.8rem;
+        font-family:"flameBold";
+        text-align: center;
+    }
+
+    .textWrapperUpsell{
+        font-size: 1.2rem;
+    }
+
+    .menuCard{
+        width:25vw;
+    }
+
+    .menuCardTiny{
+        height:8vw;
+        padding:15px 30px 5px 30px;
+        vertical-align: middle;
+        font-size:12rem;
     }
 }
