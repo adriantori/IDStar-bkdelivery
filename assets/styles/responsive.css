@@ -41,7 +41,7 @@
 
     /* footer */
     .footer{
-        height:350px;
+        height:375px;
     }
 
     .footerWrapper{
@@ -98,5 +98,46 @@
     .footerTosTm{
         margin-top:12px;
         color: #919191
+    }
+}
+@media screen and (max-width: 425px){
+    /* Menu */
+    .textWrapperTxt{
+        font-size:1rem;
+        font-family:"flameBold";
+        text-align: center;
+    }
+
+    /* footer */
+    .footerWrapper{
+        margin:0;
+    }
+
+    .footerText{
+        font-size:1rem;
+    }
+
+    .footerContact{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footerPhoneTxt{
+        font-size:2rem;
+    }
+
+    .footerIcon {
+        width: 16px;
+        height: 16px;
+        margin: 0 6px;
+    }
+
+    .footerIconPhone{
+        width:24px;
+        height:24px;
+    }
+
+    .footerTosTm{
+        text-align:center;
     }
 }
