@@ -1,8 +1,22 @@
 @media screen and (max-width: 900px){
+    /* navbar */
     .desktop{
         display:none;
     }
     .mobile{
         display:flex;
+    }
+
+    /* menus */
+    .menuCard{
+        width:30vw;
+        height:30vw;
+    }
+    
+    .textWrapperTxt{
+        font-size:1rem;
+    }
+    .textWrapperBtn{
+        display: none;
     }
 }

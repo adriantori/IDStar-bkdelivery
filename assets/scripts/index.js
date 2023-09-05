@@ -20,7 +20,7 @@ $(document).ready(function () {
         $(".menu").animate({
             height: "toggle",
             opacity: "toggle"
-        }, "slow");
+        }, "normal");
         $(".hamburger").hide();
         $(".cross").show();
     });
@@ -29,7 +29,7 @@ $(document).ready(function () {
         $(".menu").animate({
             height: "toggle",
             opacity: "toggle"
-        }, "slow");
+        }, "normal");
         $(".cross").hide();
         $(".hamburger").show();
     });

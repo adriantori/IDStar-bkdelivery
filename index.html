@@ -13,12 +13,13 @@
     <!--stylesheets-->
     <link rel="stylesheet" href="/assets/styles/index.css">
     <link rel="stylesheet" href="/assets/styles/navbar.css">
-    <link rel="stylesheet" href="/assets/styles/responsive.css">
     <link rel="stylesheet" href="/assets/styles/carousel.css">
+    <link rel="stylesheet" href="/assets/styles/menus.css">
+    <link rel="stylesheet" href="/assets/styles/responsive.css">
     <!--scripts library-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="/assets/dist/owl carousel 2/owl.carousel.min.js"></script>
-        
+
 </head>
 
 <body>
@@ -108,14 +109,14 @@
             <div class="bkLogoMobile">
                 <img src="/assets/images/navbar/bk_icon.png" alt="bk logo" class="bkLogoMobileIcon">
             </div>
-            <div class="navbarCart">
+            <div class="navbarCart navbarCartMobile">
                 <a href="https://bkdelivery.co.id/menus/" class="navbarCartLink navbarCartLinkMobile">
                     <img src="/assets/images/navbar/shopping_cart.png" alt="shopping cart" class="navbarCartIcon">
                 </a>
             </div>
         </div>
     </nav>
-    <header>
+    <header class="headCarousel">
         <div class="owl-carousel owl-theme">
             <div>
                 <a href="#">
@@ -144,6 +145,22 @@
             </div>
         </div>
     </header>
+    <section id="sectionMenus" class="menusCentered">
+        <div class="menusColumn">
+            <h2 class="defaultFontBold centered">Our Menus</h2>
+            <div class="menusWrapper defaultFont">
+                <div class="menuCard">
+                    <div class="imageWrapper">
+                        <img src="/assets/images/menus/item1.jpg" alt="menu 1" class="imageWrapperImg">
+                    </div>
+                    <div class="textWrapper">
+                        <h3 class="textWrapperTxt">September Ceria 9.9</h3>
+                        <button class="textWrapperBtn defaultFont">Order</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 <!--scripts custom-->
 <script src="/assets/scripts/index.js"></script>

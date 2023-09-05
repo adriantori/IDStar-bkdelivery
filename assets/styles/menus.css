@@ -1,0 +1,51 @@
+.menusCentered{
+    display: flex;
+    justify-content: center;
+}
+
+.menusColumn{
+    flex-direction: column;
+}
+
+.menusWrapper{
+    width:100%;
+}
+
+.menuCard{
+    width:20vw;
+    height:20vw;
+    border-radius: 5%;
+    box-shadow: 0 0 10px gray;
+    padding:30px;
+}
+
+.imageWrapper{
+    width:100%;
+    margin-bottom: 15px;
+}
+
+.imageWrapperImg{
+    width:100%;
+}
+
+.textWrapper{
+    display:flex;
+    flex-direction: row;
+}
+
+.textWrapperTxt{
+    margin:auto;
+}
+
+.textWrapperBtn{
+    text-decoration: none;
+    background-color: #ED7801;
+    width: 100%;
+    height: 40px;
+    font-family: "flameRegular";
+    border-radius: 5%;
+    color: #FFFFFF;
+    margin-left: 25px;
+    border-radius: 10%;
+    border: none;
+}

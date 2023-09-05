@@ -7,10 +7,28 @@ body {
     background-color:#FFFFFF;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
 }
 
+h2{
+    font-size: 2em;
+}
+
+.defaultFont{
+    font-family:"flameRegular";
+    color:#8B542F;
+}
+
+.defaultFontBold{
+    font-family:"flameBold";
+    color:#8B542F;
+}
+
+.centered{
+    text-align: center;
+}
 
 @font-face {
     font-family: "flameBold";
