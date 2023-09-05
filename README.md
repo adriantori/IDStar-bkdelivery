@@ -36,7 +36,7 @@
 
 2. I used pure css and FontAwesome icon for Carousel arrow instead of static image.
 
-3. I only put 6 items on the Menus section because it should already show how the site works without unnecessary code on my side.
+3. I only put 6 items on the Menus section and 5 Carousel items because it should already show how the site works without unnecessary code on my side.
 
 ## What I cant do
 
