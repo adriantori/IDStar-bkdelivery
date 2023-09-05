@@ -8,9 +8,20 @@
     }
 
     /* menus */
+    .menusWrapper{
+        width:100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .menuCard{
         width:30vw;
         height:30vw;
+    }
+
+    .menuCardTiny {
+        width: 30vw;
+        height: auto;
     }
     
     .textWrapperTxt{
