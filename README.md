@@ -1,7 +1,9 @@
 # Burger King Delivery Clone Website
 
  This project is for IDStar's Front-End job requirement.
+
  Made using HTML, CSS, and JQuery.
+ 
  Deployment link : https://idstar-bk-adriantori.netlify.app
 
 ## What I implement
