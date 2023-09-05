@@ -3,8 +3,16 @@
  This project is for IDStar's Front-End job requirement.
 
  Made using HTML, CSS, and JQuery.
- 
+
  Deployment link : https://idstar-bk-adriantori.netlify.app
+
+## Notes:
+
+1.  This site is tested and responsive on 1440px, 1024px, 768px, 425px, and 375px.
+
+2. Edge cases arent tested (i.e whether it breaks on 1234px).
+
+3. This project implies to only work on the homepage, whether other pages need to be implemented, it will need confirmation from the Assignment Contact Person.
 
 ## What I implement
 
@@ -38,4 +46,4 @@
 
 3. Straighten footer text with the items in Menus.
 
-
+4. Enlarge fonts on smaller device (425px or lower) without breaking the text.
