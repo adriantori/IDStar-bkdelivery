@@ -1,0 +1,34 @@
+.owl-prev {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 40%;
+    margin-left: -20px;
+    display: block !important;
+    border-radius: 50% !important;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+    background-color: rgba(255,255,255,0.5);
+}
+.owl-theme .owl-nav [class*=owl-]:hover{
+    background-color: rgba(255,255,255,0.5);
+}
+
+
+
+.owl-next {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 40%;
+    right: 25px;
+    display: block !important;
+    border-radius: 50% !important;
+}
+
+.owl-prev i,
+.owl-next i {
+    transform: scale(1, 2);
+    color: #ED7801;
+}
